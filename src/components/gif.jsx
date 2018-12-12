@@ -3,11 +3,8 @@ import React, { Component } from 'react';
 class Gif extends Component{
   render(){
    return (
-      <div>
-        <div class="left-scene"></div>
-        <div class="right-scene"></div>
-      </div>
-    );
+      <img className="gif" src="https://media.giphy.com/media/slVWEctHZKvWU/giphy.gif"/>
+      );
   }
 }
 
